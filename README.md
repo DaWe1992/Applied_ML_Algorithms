@@ -5,57 +5,6 @@ Also, debug through the code line for line and check what each line does.
 
 > **The algorithms were implemented for educational purposes only, and should therefore not be used in production environments!**
 
-## Which Algorithms are included?
-The following algorithms are implemented:
-
-1. **Classification** ([folder clf](https://github.com/DaWe1992/Applied_ML_Algorithms/tree/master/clf))
-	* Decision trees
-	* Iterative reweighted least squares (IRLS)
-	* k-nearest neighbors (kNN)
-	* Linear discriminant analysis
-	* Logistic regression
-	* Multi-layer perceptron (MLP)
-	* Perceptron
-	* Support vector machine (SVM)
-2. **Regression** ([folder reg](https://github.com/DaWe1992/Applied_ML_Algorithms/tree/master/reg))
-	* Bayesian linear regression
-	* Gaussian process regression
-	* Kernel (ridge) regression
-	* k-nearest neighbors regression
-	* LOWESS
-	* Support vector regression (SVR)
-3. **Reinforcement learning** ([folder rl](https://github.com/DaWe1992/Applied_ML_Algorithms/tree/master/rl))
-	* Policy iteration
-	* Value iteration
-	* Q-learning
-	* REINFORCE
-4. **Unsupervised learning** ([folder unsupervised](https://github.com/DaWe1992/Applied_ML_Algorithms/tree/master/unsupervised))
-	* Apriori (association rules)
-	* Expectation-maximization (EM) for Gaussian mixtures
-	* Dimensionality reduction ([folder decomposition](https://github.com/DaWe1992/Applied_ML_Algorithms/tree/master/06_python/unsupervised/decomposition))
-		* Auto-encoders
-		* Independent component analysis (ICA)
-		* Non-negative matrix factorization
-		* Kernel PCA
-		* Principal component analysis (PCA)
-		* t-SNE
-	* Clustering ([folder clustering](https://github.com/DaWe1992/Applied_ML_Algorithms/tree/master/06_python/unsupervised/clustering))
-		* Affinity propagation
-		* Agglomerative clustering
-		* DBSCAN
-		* k-Medoids
-		* Mean-shift clustering
-		* OPTICS
-		* Spectral clustering
-5. **Sequence learning** ([folder seq](https://github.com/DaWe1992/Applied_ML_Algorithms/tree/master/seq))
-	* Hidden Markov models (HMM)
-6. **Optimization** ([folder optim](https://github.com/DaWe1992/Applied_ML_Algorithms/tree/master/optim))
-	* Nelder-Mead optimization
-	* Particle swarm optimization
-	* Simulated annealing
-	
-Please find further exemplary implementations in the folder [misc](https://github.com/DaWe1992/Applied_ML_Algorithms/tree/master/misc).
-
 ## Installation
 It is good practice to create a new virtual environment for each of your projects. Please create a new environment e.g. using Anaconda (Navigator)
 or use the `virtualenv` [package](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/).
