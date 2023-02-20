@@ -1,13 +1,14 @@
-# Python Code 🐍
-Machine learning algorithms (probably all algorithms) are easier to understand, if you see them implemented. Here you find Python implementations for some of the algorithms (which are not part of the assignments).
-Play around with the hyper-parameters of the algorithms and try different data sets in order to get a better feeling for how the algorithms work. Also, debug through the code line for line and check what each line does.
+# ML Algorithms (Python) 🐍
+Machine learning algorithms are easier to understand, if you see them implemented. In this repository you will find Python implementations for some machine learning algorithms.
+Play around with the hyper-parameters of the algorithms and try out different data sets in order to get a better feeling for how the algorithms work.
+Also, debug through the code line for line and check what each line does.
 
 > **The algorithms were implemented for educational purposes only, and should therefore not be used in production environments!**
 
 ## Which Algorithms are included?
-The following algorithms are implemented (some are missing, since they are part of the exercises):
+The following algorithms are implemented:
 
-1. **Classification** ([folder clf](https://github.com/DaWe1992/Applied_ML_Fundamentals/tree/master/06_python/clf))
+1. **Classification** ([folder clf](https://github.com/DaWe1992/Applied_ML_Fundamentals/tree/master/clf))
 	* Decision trees
 	* Iterative reweighted least squares (IRLS)
 	* k-nearest neighbors (kNN)
@@ -16,19 +17,19 @@ The following algorithms are implemented (some are missing, since they are part 
 	* Multi-layer perceptron (MLP)
 	* Perceptron
 	* Support vector machine (SVM)
-2. **Regression** ([folder reg](https://github.com/DaWe1992/Applied_ML_Fundamentals/tree/master/06_python/reg))
+2. **Regression** ([folder reg](https://github.com/DaWe1992/Applied_ML_Fundamentals/tree/master/reg))
 	* Bayesian linear regression
 	* Gaussian process regression
 	* Kernel (ridge) regression
 	* k-nearest neighbors regression
 	* LOWESS
 	* Support vector regression (SVR)
-3. **Reinforcement learning** ([folder rl](https://github.com/DaWe1992/Applied_ML_Fundamentals/tree/master/06_python/rl))
+3. **Reinforcement learning** ([folder rl](https://github.com/DaWe1992/Applied_ML_Fundamentals/tree/master/rl))
 	* Policy iteration
 	* Value iteration
 	* Q-learning
 	* REINFORCE
-4. **Unsupervised learning** ([folder unsupervised](https://github.com/DaWe1992/Applied_ML_Fundamentals/tree/master/06_python/unsupervised))
+4. **Unsupervised learning** ([folder unsupervised](https://github.com/DaWe1992/Applied_ML_Fundamentals/tree/master/unsupervised))
 	* Apriori (association rules)
 	* Expectation-maximization (EM) for Gaussian mixtures
 	* Dimensionality reduction ([folder decomposition](https://github.com/DaWe1992/Applied_ML_Fundamentals/tree/master/06_python/unsupervised/decomposition))
@@ -46,14 +47,14 @@ The following algorithms are implemented (some are missing, since they are part 
 		* Mean-shift clustering
 		* OPTICS
 		* Spectral clustering
-5. **Sequence learning** ([folder seq](https://github.com/DaWe1992/Applied_ML_Fundamentals/tree/master/06_python/seq))
+5. **Sequence learning** ([folder seq](https://github.com/DaWe1992/Applied_ML_Fundamentals/tree/master/seq))
 	* Hidden Markov models (HMM)
-6. **Optimization** ([folder optim](https://github.com/DaWe1992/Applied_ML_Fundamentals/tree/master/06_python/optim))
+6. **Optimization** ([folder optim](https://github.com/DaWe1992/Applied_ML_Fundamentals/tree/master/optim))
 	* Nelder-Mead optimization
 	* Particle swarm optimization
 	* Simulated annealing
 	
-Please find further exemplary implementations in the folder [misc](https://github.com/DaWe1992/Applied_ML_Fundamentals/tree/master/06_python/misc).
+Please find further exemplary implementations in the folder [misc](https://github.com/DaWe1992/Applied_ML_Fundamentals/tree/master/misc).
 
 ## Installation
 It is good practice to create a new virtual environment for each of your projects. Please create a new environment e.g. using Anaconda (Navigator)
@@ -89,9 +90,10 @@ $ pip install -r requirements.txt
 Now you should be ready to go!
 
 ## How to run the Code?
-Please use the script located in `main.py` to execute the code for the algorithms. The file contains functions for
-classification, regression, reinforcement learning and unsupervised learning. Simply uncomment the parts which you want to use. Also, this repository contains classes for data creation, evaluation and plotting.
-Please refer to the folder [utils](https://github.com/DaWe1992/Applied_ML_Fundamentals/tree/master/06_python/utils) for this.
+Please use the script located in `main.py` to execute the code for the algorithms.
+The file contains functions for classification, regression, reinforcement learning and unsupervised learning.
+Simply uncomment the parts which you want to use. Also, this repository contains classes for data creation, evaluation and plotting.
+Please refer to the folder [utils](https://github.com/DaWe1992/Applied_ML_Fundamentals/tree/master/utils) for this.
 
 The file `main.py` has the following structure:
 
@@ -201,21 +203,21 @@ if __name__ == "__main__":
 
 ### Classification
 
-<img src="https://github.com/DaWe1992/Applied_ML_Fundamentals/blob/master/06_python/z_img/boundary.png" width="450px" height="300px"> <img src="https://github.com/DaWe1992/Applied_ML_Fundamentals/blob/master/06_python/z_img/svm.png" width="450px" height="300px">
+<img src="https://github.com/DaWe1992/Applied_ML_Fundamentals/blob/master/z_img/boundary.png" width="450px" height="300px"> <img src="https://github.com/DaWe1992/Applied_ML_Fundamentals/blob/master/z_img/svm.png" width="450px" height="300px">
 
 ### Regression
 
-<img src="https://github.com/DaWe1992/Applied_ML_Fundamentals/blob/master/06_python/z_img/gaussian_process.png" width="450px" height="300px"> <img src="https://github.com/DaWe1992/Applied_ML_Fundamentals/blob/master/06_python/z_img/knn_regression.png" width="450px" height="300px">
+<img src="https://github.com/DaWe1992/Applied_ML_Fundamentals/blob/master/z_img/gaussian_process.png" width="450px" height="300px"> <img src="https://github.com/DaWe1992/Applied_ML_Fundamentals/blob/master/z_img/knn_regression.png" width="450px" height="300px">
 <p align="center">
-	<img src="https://github.com/DaWe1992/Applied_ML_Fundamentals/blob/master/06_python/z_img/grad_desc.gif" width="700px" height="300px">
+	<img src="https://github.com/DaWe1992/Applied_ML_Fundamentals/blob/master/z_img/grad_desc.gif" width="700px" height="300px">
 </p>
 
 ### Clustering
 
-<img src="https://github.com/DaWe1992/Applied_ML_Fundamentals/blob/master/06_python/z_img/optics.png" width="450px" height="300px"> <img src="https://github.com/DaWe1992/Applied_ML_Fundamentals/blob/master/06_python/z_img/affinity_propagation.gif" width="450px" height="300px">
+<img src="https://github.com/DaWe1992/Applied_ML_Fundamentals/blob/master/z_img/optics.png" width="450px" height="300px"> <img src="https://github.com/DaWe1992/Applied_ML_Fundamentals/blob/master/z_img/affinity_propagation.gif" width="450px" height="300px">
 
 ### Optimization
 
-<img src="https://github.com/DaWe1992/Applied_ML_Fundamentals/blob/master/06_python/z_img/nelder_mead.gif" width="300px" height="300px"> <img src="https://github.com/DaWe1992/Applied_ML_Fundamentals/blob/master/06_python/z_img/particle_swarm.gif" width="300px" height="300px"> <img src="https://github.com/DaWe1992/Applied_ML_Fundamentals/blob/master/06_python/z_img/simulated_annealing.png" width="300px" height="300px">
+<img src="https://github.com/DaWe1992/Applied_ML_Fundamentals/blob/master/z_img/nelder_mead.gif" width="300px" height="300px"> <img src="https://github.com/DaWe1992/Applied_ML_Fundamentals/blob/master/z_img/particle_swarm.gif" width="300px" height="300px"> <img src="https://github.com/DaWe1992/Applied_ML_Fundamentals/blob/master/z_img/simulated_annealing.png" width="300px" height="300px">
 
-<sub>© 2020 Daniel Wehner</sub>
+<sub>© 2023 Daniel Wehner</sub>
