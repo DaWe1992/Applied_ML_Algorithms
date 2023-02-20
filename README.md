@@ -8,7 +8,7 @@ Also, debug through the code line for line and check what each line does.
 ## Which Algorithms are included?
 The following algorithms are implemented:
 
-1. **Classification** ([folder clf](https://github.com/DaWe1992/Applied_ML_Fundamentals/tree/master/clf))
+1. **Classification** ([folder clf](https://github.com/DaWe1992/Applied_ML_Algorithms/tree/master/clf))
 	* Decision trees
 	* Iterative reweighted least squares (IRLS)
 	* k-nearest neighbors (kNN)
@@ -17,29 +17,29 @@ The following algorithms are implemented:
 	* Multi-layer perceptron (MLP)
 	* Perceptron
 	* Support vector machine (SVM)
-2. **Regression** ([folder reg](https://github.com/DaWe1992/Applied_ML_Fundamentals/tree/master/reg))
+2. **Regression** ([folder reg](https://github.com/DaWe1992/Applied_ML_Algorithms/tree/master/reg))
 	* Bayesian linear regression
 	* Gaussian process regression
 	* Kernel (ridge) regression
 	* k-nearest neighbors regression
 	* LOWESS
 	* Support vector regression (SVR)
-3. **Reinforcement learning** ([folder rl](https://github.com/DaWe1992/Applied_ML_Fundamentals/tree/master/rl))
+3. **Reinforcement learning** ([folder rl](https://github.com/DaWe1992/Applied_ML_Algorithms/tree/master/rl))
 	* Policy iteration
 	* Value iteration
 	* Q-learning
 	* REINFORCE
-4. **Unsupervised learning** ([folder unsupervised](https://github.com/DaWe1992/Applied_ML_Fundamentals/tree/master/unsupervised))
+4. **Unsupervised learning** ([folder unsupervised](https://github.com/DaWe1992/Applied_ML_Algorithms/tree/master/unsupervised))
 	* Apriori (association rules)
 	* Expectation-maximization (EM) for Gaussian mixtures
-	* Dimensionality reduction ([folder decomposition](https://github.com/DaWe1992/Applied_ML_Fundamentals/tree/master/06_python/unsupervised/decomposition))
+	* Dimensionality reduction ([folder decomposition](https://github.com/DaWe1992/Applied_ML_Algorithms/tree/master/06_python/unsupervised/decomposition))
 		* Auto-encoders
 		* Independent component analysis (ICA)
 		* Non-negative matrix factorization
 		* Kernel PCA
 		* Principal component analysis (PCA)
 		* t-SNE
-	* Clustering ([folder clustering](https://github.com/DaWe1992/Applied_ML_Fundamentals/tree/master/06_python/unsupervised/clustering))
+	* Clustering ([folder clustering](https://github.com/DaWe1992/Applied_ML_Algorithms/tree/master/06_python/unsupervised/clustering))
 		* Affinity propagation
 		* Agglomerative clustering
 		* DBSCAN
@@ -47,14 +47,14 @@ The following algorithms are implemented:
 		* Mean-shift clustering
 		* OPTICS
 		* Spectral clustering
-5. **Sequence learning** ([folder seq](https://github.com/DaWe1992/Applied_ML_Fundamentals/tree/master/seq))
+5. **Sequence learning** ([folder seq](https://github.com/DaWe1992/Applied_ML_Algorithms/tree/master/seq))
 	* Hidden Markov models (HMM)
-6. **Optimization** ([folder optim](https://github.com/DaWe1992/Applied_ML_Fundamentals/tree/master/optim))
+6. **Optimization** ([folder optim](https://github.com/DaWe1992/Applied_ML_Algorithms/tree/master/optim))
 	* Nelder-Mead optimization
 	* Particle swarm optimization
 	* Simulated annealing
 	
-Please find further exemplary implementations in the folder [misc](https://github.com/DaWe1992/Applied_ML_Fundamentals/tree/master/misc).
+Please find further exemplary implementations in the folder [misc](https://github.com/DaWe1992/Applied_ML_Algorithms/tree/master/misc).
 
 ## Installation
 It is good practice to create a new virtual environment for each of your projects. Please create a new environment e.g. using Anaconda (Navigator)
@@ -93,7 +93,7 @@ Now you should be ready to go!
 Please use the script located in `main.py` to execute the code for the algorithms.
 The file contains functions for classification, regression, reinforcement learning and unsupervised learning.
 Simply uncomment the parts which you want to use. Also, this repository contains classes for data creation, evaluation and plotting.
-Please refer to the folder [utils](https://github.com/DaWe1992/Applied_ML_Fundamentals/tree/master/utils) for this.
+Please refer to the folder [utils](https://github.com/DaWe1992/Applied_ML_Algorithms/tree/master/utils) for this.
 
 The file `main.py` has the following structure:
 
@@ -203,21 +203,21 @@ if __name__ == "__main__":
 
 ### Classification
 
-<img src="https://github.com/DaWe1992/Applied_ML_Fundamentals/blob/master/z_img/boundary.png" width="450px" height="300px"> <img src="https://github.com/DaWe1992/Applied_ML_Fundamentals/blob/master/z_img/svm.png" width="450px" height="300px">
+<img src="https://github.com/DaWe1992/Applied_ML_Algorithms/blob/master/z_img/boundary.png" width="450px" height="300px"> <img src="https://github.com/DaWe1992/Applied_ML_Algorithms/blob/master/z_img/svm.png" width="450px" height="300px">
 
 ### Regression
 
-<img src="https://github.com/DaWe1992/Applied_ML_Fundamentals/blob/master/z_img/gaussian_process.png" width="450px" height="300px"> <img src="https://github.com/DaWe1992/Applied_ML_Fundamentals/blob/master/z_img/knn_regression.png" width="450px" height="300px">
+<img src="https://github.com/DaWe1992/Applied_ML_Algorithms/blob/master/z_img/gaussian_process.png" width="450px" height="300px"> <img src="https://github.com/DaWe1992/Applied_ML_Algorithms/blob/master/z_img/knn_regression.png" width="450px" height="300px">
 <p align="center">
-	<img src="https://github.com/DaWe1992/Applied_ML_Fundamentals/blob/master/z_img/grad_desc.gif" width="700px" height="300px">
+	<img src="https://github.com/DaWe1992/Applied_ML_Algorithms/blob/master/z_img/grad_desc.gif" width="700px" height="300px">
 </p>
 
 ### Clustering
 
-<img src="https://github.com/DaWe1992/Applied_ML_Fundamentals/blob/master/z_img/optics.png" width="450px" height="300px"> <img src="https://github.com/DaWe1992/Applied_ML_Fundamentals/blob/master/z_img/affinity_propagation.gif" width="450px" height="300px">
+<img src="https://github.com/DaWe1992/Applied_ML_Algorithms/blob/master/z_img/optics.png" width="450px" height="300px"> <img src="https://github.com/DaWe1992/Applied_ML_Algorithms/blob/master/z_img/affinity_propagation.gif" width="450px" height="300px">
 
 ### Optimization
 
-<img src="https://github.com/DaWe1992/Applied_ML_Fundamentals/blob/master/z_img/nelder_mead.gif" width="300px" height="300px"> <img src="https://github.com/DaWe1992/Applied_ML_Fundamentals/blob/master/z_img/particle_swarm.gif" width="300px" height="300px"> <img src="https://github.com/DaWe1992/Applied_ML_Fundamentals/blob/master/z_img/simulated_annealing.png" width="300px" height="300px">
+<img src="https://github.com/DaWe1992/Applied_ML_Algorithms/blob/master/z_img/nelder_mead.gif" width="300px" height="300px"> <img src="https://github.com/DaWe1992/Applied_ML_Algorithms/blob/master/z_img/particle_swarm.gif" width="300px" height="300px"> <img src="https://github.com/DaWe1992/Applied_ML_Algorithms/blob/master/z_img/simulated_annealing.png" width="300px" height="300px">
 
 <sub>© 2023 Daniel Wehner</sub>
