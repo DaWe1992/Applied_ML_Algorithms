@@ -169,4 +169,4 @@ if __name__ == "__main__":
 
 <img src="https://github.com/DaWe1992/Applied_ML_Algorithms/blob/master/z_img/nelder_mead.gif" width="300px" height="300px"> <img src="https://github.com/DaWe1992/Applied_ML_Algorithms/blob/master/z_img/particle_swarm.gif" width="300px" height="300px"> <img src="https://github.com/DaWe1992/Applied_ML_Algorithms/blob/master/z_img/simulated_annealing.png" width="300px" height="300px">
 
-<sub>© 2023 Daniel Wehner</sub>
+<sub>© 2023 Daniel Wehner, M.Sc.</sub>
